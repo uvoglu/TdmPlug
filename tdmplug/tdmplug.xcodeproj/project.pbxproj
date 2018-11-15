@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A5B9A121959D8D008F6578 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B9A021959D8D008F6578 /* main.m */; };
+		F4A5E6CF219A53370060DBBA /* NetworkInterfaceNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5E6CE219A53370060DBBA /* NetworkInterfaceNotifier.swift */; };
+		F4A5E6D2219A53F10060DBBA /* TdmController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A5E6D1219A53F10060DBBA /* TdmController.m */; };
+		F4A5E6D5219A56230060DBBA /* TdmSystemProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A5E6D4219A56230060DBBA /* TdmSystemProfiler.m */; };
+		F4A5E6D8219A566E0060DBBA /* TdmThunderboltObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A5E6D7219A566E0060DBBA /* TdmThunderboltObserver.m */; };
+		F4A5E706219B045D0060DBBA /* TdmHid.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A5E705219B045D0060DBBA /* TdmHid.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4A5B99B21959D8D008F6578 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4A5B99D21959D8D008F6578 /* tdmplug */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tdmplug; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A5B9A021959D8D008F6578 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4A5E6CE219A53370060DBBA /* NetworkInterfaceNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterfaceNotifier.swift; sourceTree = "<group>"; };
+		F4A5E6D0219A53F10060DBBA /* TdmController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TdmController.h; sourceTree = "<group>"; };
+		F4A5E6D1219A53F10060DBBA /* TdmController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TdmController.m; sourceTree = "<group>"; };
+		F4A5E6D3219A56230060DBBA /* TdmSystemProfiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TdmSystemProfiler.h; sourceTree = "<group>"; };
+		F4A5E6D4219A56230060DBBA /* TdmSystemProfiler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TdmSystemProfiler.m; sourceTree = "<group>"; };
+		F4A5E6D6219A566E0060DBBA /* TdmThunderboltObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TdmThunderboltObserver.h; sourceTree = "<group>"; };
+		F4A5E6D7219A566E0060DBBA /* TdmThunderboltObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TdmThunderboltObserver.m; sourceTree = "<group>"; };
+		F4A5E6DA219A59010060DBBA /* tdmplug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tdmplug-Prefix.pch"; sourceTree = "<group>"; };
+		F4A5E6DD219A59D70060DBBA /* tdmplug-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tdmplug-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4A5E704219B045D0060DBBA /* TdmHid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TdmHid.h; sourceTree = "<group>"; };
+		F4A5E705219B045D0060DBBA /* TdmHid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TdmHid.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A5B99A21959D8D008F6578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A5B99421959D8D008F6578 = {
+			isa = PBXGroup;
+			children = (
+				F4A5B99F21959D8D008F6578 /* tdmplug */,
+				F4A5B99E21959D8D008F6578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A5B99E21959D8D008F6578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5B99D21959D8D008F6578 /* tdmplug */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A5B99F21959D8D008F6578 /* tdmplug */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5B9A021959D8D008F6578 /* main.m */,
+				F4A5E6D0219A53F10060DBBA /* TdmController.h */,
+				F4A5E6D1219A53F10060DBBA /* TdmController.m */,
+				F4A5E6D3219A56230060DBBA /* TdmSystemProfiler.h */,
+				F4A5E6D4219A56230060DBBA /* TdmSystemProfiler.m */,
+				F4A5E6D6219A566E0060DBBA /* TdmThunderboltObserver.h */,
+				F4A5E6D7219A566E0060DBBA /* TdmThunderboltObserver.m */,
+				F4A5E6CE219A53370060DBBA /* NetworkInterfaceNotifier.swift */,
+				F4A5E704219B045D0060DBBA /* TdmHid.h */,
+				F4A5E705219B045D0060DBBA /* TdmHid.c */,
+				F4A5E6DE219A5A650060DBBA /* Supporting Files */,
+			);
+			path = tdmplug;
+			sourceTree = "<group>";
+		};
+		F4A5E6DE219A5A650060DBBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5E6DD219A59D70060DBBA /* tdmplug-Bridging-Header.h */,
+				F4A5E6DA219A59010060DBBA /* tdmplug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A5B99C21959D8D008F6578 /* tdmplug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A5B9A421959D8D008F6578 /* Build configuration list for PBXNativeTarget "tdmplug" */;
+			buildPhases = (
+				F4A5B99921959D8D008F6578 /* Sources */,
+				F4A5B99A21959D8D008F6578 /* Frameworks */,
+				F4A5B99B21959D8D008F6578 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tdmplug;
+			productName = TdmPlug;
+			productReference = F4A5B99D21959D8D008F6578 /* tdmplug */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A5B99521959D8D008F6578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Simon Schuhmacher";
+				TargetAttributes = {
+					F4A5B99C21959D8D008F6578 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = F4A5B99821959D8D008F6578 /* Build configuration list for PBXProject "tdmplug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4A5B99421959D8D008F6578;
+			productRefGroup = F4A5B99E21959D8D008F6578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A5B99C21959D8D008F6578 /* tdmplug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A5B99921959D8D008F6578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A5E6CF219A53370060DBBA /* NetworkInterfaceNotifier.swift in Sources */,
+				F4A5E6D8219A566E0060DBBA /* TdmThunderboltObserver.m in Sources */,
+				F4A5E6D2219A53F10060DBBA /* TdmController.m in Sources */,
+				F4A5B9A121959D8D008F6578 /* main.m in Sources */,
+				F4A5E6D5219A56230060DBBA /* TdmSystemProfiler.m in Sources */,
+				F4A5E706219B045D0060DBBA /* TdmHid.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4A5B9A221959D8D008F6578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = tdmplug;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "tdmplub/tdmplug-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4A5B9A321959D8D008F6578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = tdmplug;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "tdmplub/tdmplug-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4A5B9A521959D8D008F6578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "tdmplug/tdmplug-Prefix.pch";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uvoglu.tdmplug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tdmplug/tdmplug-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4A5B9A621959D8D008F6578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "tdmplug/tdmplug-Prefix.pch";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uvoglu.tdmplug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tdmplug/tdmplug-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A5B99821959D8D008F6578 /* Build configuration list for PBXProject "tdmplug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A5B9A221959D8D008F6578 /* Debug */,
+				F4A5B9A321959D8D008F6578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A5B9A421959D8D008F6578 /* Build configuration list for PBXNativeTarget "tdmplug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A5B9A521959D8D008F6578 /* Debug */,
+				F4A5B9A621959D8D008F6578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A5B99521959D8D008F6578 /* Project object */;
+}

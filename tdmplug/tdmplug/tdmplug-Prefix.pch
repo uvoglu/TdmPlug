@@ -1,0 +1,22 @@
+//
+//  tdmplug-Prefix.pch
+//  tdmplug
+//
+//  Created by Simon Schuhmacher on 13.11.18.
+//  Copyright © 2018 Simon Schuhmacher. All rights reserved.
+//
+
+#ifndef tdmplug_Prefix_pch
+#define tdmplug_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// Import these libs in all Objective-C files,
+// but not in others, eg. C files
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#import "tdmplug-Swift.h"
+#endif
+
+#endif /* tdmplug_Prefix_pch */
