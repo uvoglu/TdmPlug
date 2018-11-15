@@ -21,7 +21,7 @@ Please note that it might take some seconds for a connected device to be detecte
 
 ### Installer
 
-* Download the [installer](https://github.com/uvoglu/TdmPlug/releases/download/1.0/TdmPlug.dmg) from the releases section.
+* [Download the installer](https://github.com/uvoglu/TdmPlug/releases/download/1.0/TdmPlug.dmg) from the releases section.
 
 
 * Disable System Integrity Protection (SIP). This is required as you install a custom Kernel Extension (kext) which is not signed. To disable SIP, reboot your iMac and press `CMD+R` while booting. macOS will boot into recovery mode.
