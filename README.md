@@ -56,8 +56,8 @@ Please note that it might take some seconds for a connected device to be detecte
 * Change permissions on the kext by executing the following command in terminal: `sudo -R chown root:wheel /Library/Exensions/tdmfoohid.kext`
 * Load the custom kext by executing `sudo kextload -b com.uvoglu.tdmfoohid`
 
-
-* Change permissions on `com.uvoglu.tdmplug.plist` by executing the following command in terminal: `sudo chown root:wheel com.uvoglu.tdmplug.plist`
+* Copy `com.uvoglu.tdmplug.plist` to `/Library/LaunchDaemons/`
+* Change permissions on `com.uvoglu.tdmplug.plist` by executing the following command in terminal: `sudo chown root:wheel /Library/LaunchDaemons/com.uvoglu.tdmplug.plist`
 * Enable the LaunchDaemon with `sudo launchctl load -w /Library/LaunchDaemons/com.uvoglu.tdmplug.plist`
 
 
