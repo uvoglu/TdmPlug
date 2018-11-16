@@ -53,7 +53,7 @@ Please note that it might take some seconds for a connected device to be detecte
 
 
 * Copy `tdmfoohid.kext` to `/Library/Exensions/`
-* Change permissions on the kext by executing the following command in terminal: `sudo -R chown root:wheel /Library/Exensions/tdmfoohid.kext`
+* Change permissions on the kext by executing the following command in terminal: `sudo chown -R root:wheel /Library/Exensions/tdmfoohid.kext`
 * Load the custom kext by executing `sudo kextload -b com.uvoglu.tdmfoohid`
 
 * Copy `com.uvoglu.tdmplug.plist` to `/Library/LaunchDaemons/`
